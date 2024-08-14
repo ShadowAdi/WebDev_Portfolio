@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aditya Shukla | WebDev</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="circle"></div>
+
+    <h1 class="counter">0</h1>
+    <div class="overlay">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+    <div class="page1">
+      <nav>
+        <div><a href="#about">About</a><a id="hidden" href="#contact">Contact</a></div>
+        <div>
+          <a  href="#project">Project</a>
+          <a id="hidden" href="#skill">Skill</a>
+        </div>
+      </nav>
+      <div class="header">
+        <div class="first">
+          <h1>A</h1>
+          <h1>D</h1>
+          <h1>I</h1>
+          <h1>T</h1>
+          <h1>Y</h1>
+          <h1>A</h1>
+        </div>
+        <div class="first">
+          <h1>S</h1>
+          <h1>H</h1>
+          <h1>U</h1>
+          <h1>K</h1>
+          <h1>L</h1>
+          <h1>A</h1>
+        </div>
+      </div>
+    </div>
+    <div class="page2">
+      <section class="marquee">
+        <div class="marquee__inner">
+          <div class="marquee__part">Full Stack Developer</div>
+          <div class="marquee__part">UI/UX Designer</div>
+          <div class="marquee__part">Golang Developer</div>
+          <div class="marquee__part">Data Scientist</div>
+          <!-- Duplicate Content -->
+          <div class="marquee__part">Full Stack Developer</div>
+          <div class="marquee__part">UI/UX Designer</div>
+          <div class="marquee__part">Golang Developer</div>
+          <div class="marquee__part">Data Scientist</div>
+        </div>
+      </section>
+      <section id="project" class="services">
+        <div class="services-header">
+          <div class="col"></div>
+          <div class="col"><h1>All Pojects</h1></div>
+        </div>
+        <div class="service">
+          <div class="service-info">
+            <h1>Evently</h1>
+            <p>
+              This is an Event Management System which let users create, update,
+              and delete any kind of Event. I also added booking functinality so
+              you can book for the event with help of Stripe Payment. You can
+              get Information about other events too. I Used Stripe and Clerk
+              Webhook so it automatically stores information in Database. I Use
+              Mongodb as my database.
+            </p>
+            <p>
+              <strong>Tech Stack- </strong> Nextjs, Typescript, MongoDB, Clerk ,
+              UploadThings, Shadcn, Stripe, React hook form, Zod
+            </p>
+            <div class="buttons">
+              <a target="_blank" href="https://github.com/ShadowAdi/Evently">
+                <button id="btn1">Github</button></a
+              >
+              <a target="_blank" href="https://evently-omega-eight.vercel.app/">
+                <button id="btn2">Vercel</button></a
+              >
+            </div>
+          </div>
+          <div class="service-img">
+            <div class="img">
+              <img src="Screenshot 2024-08-11 234210.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="service">
+          <div class="service-info">
+            <h1>Content Generator</h1>
+            <p>
+              This is a Nextjs based project which helps you in Created Contant
+              for your Social Media Platforms for Free. I Also integrated Stripe
+              payment integration and Stripe webhooks to store all those payment
+              in Database.
+            </p>
+            <p>
+              <strong>Tech Stack- </strong> Nextjs, Clerk, NeonDB, PostgreSQL,
+              prisma , Axios, Recharts, Stripe
+            </p>
+            <div class="buttons">
+              <a
+                target="_blank"
+                href="https://github.com/ShadowAdi/aicontentgenerator"
+              >
+                <button id="btn1">Github</button></a
+              >
+              <a
+                target="_blank"
+                href="https://aicontentgenerator-nu.vercel.app/"
+              >
+                <button id="btn2">Vercel</button></a
+              >
+            </div>
+          </div>
+          <div class="service-img">
+            <div class="img">
+              <img src="Screenshot 2024-08-11 234243.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="service">
+          <div class="service-info">
+            <h1>Property Pulse</h1>
+            <p>
+              You Want to Sell or Buy Property or Rent it. Use Our App -
+              Property Pulse. This is a Nextjs Project which you can use for
+              Properties. You Can sell properties for weekly, monthly or yearly
+              properties. You can upload images or location I Use Leaflt API to
+              get location
+            </p>
+            <p>
+              <strong>Tech Stack- </strong> Cloudinary, Leaflet,
+              NextAuth,mongoose, React Share, React Photosipe ,React toastify,
+              tailwindcss, React spinner and toastify
+            </p>
+            <div class="buttons">
+              <a
+                target="_blank"
+                href="https://github.com/ShadowAdi/Property_Next"
+              >
+                <button id="btn1">Github</button></a
+              >
+              <a target="_blank" href="https://property-next-ten.vercel.app/">
+                <button id="btn2">Vercel</button></a
+              >
+            </div>
+          </div>
+          <div class="service-img">
+            <div class="img">
+              <img src="Screenshot 2024-08-12 073957.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="service">
+          <div class="service-info">
+            <h1>CryptoTracker</h1>
+            <p>
+              Want to track crypto price real time and save your favourite
+              Crypto or get details about Crypto Coins. you can Use our app for
+              those things. It is simple yet usefull app created with help of
+              React as Frontend And Golang as Backend. I also Added
+              Authentication and I Use Postgres as a Database
+            </p>
+            <p>
+              <strong>Tech Stack- </strong> Cloudinary, React, Golang,Postgres,
+              Spinner,CoinGecko Api, React Tanstack Query
+            </p>
+            <div class="buttonsSingle">
+              <a target="_blank" href="https://github.com/ShadowAdi/React_Golang_Crypto"> <button id="btn1">Github</button></a>
+            </div>
+          </div>
+          <div class="service-img">
+            <div class="img">
+              <img src="Screenshot 2024-06-23 074446.png" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="service">
+          <div class="service-info">
+            <h1>Golang_Crud</h1>
+            <p>
+              You Can Not Only Perform Crud Operation On Only Single
+              Database.But There are two databases. User and Books In This
+              Project I Have Create A Backend of An Application With The Help of
+              Go Language And I Also Integrated The PostgreSQL Database. It
+              Actually Work Like this That a person Can Create His Account And
+              He also Gave A List Of Books.
+            </p>
+            <p>
+              <strong>Tech Stack- </strong> Golang, GIN, GORM,
+              ThunderClient,Postgres
+            </p>
+            <div class="buttonsSingle">
+              <a target="_blank" href="https://github.com/ShadowAdi/Postgres_GORM_GIN"> <button id="btn1">Github</button></a>
+            </div>
+          </div>
+          <div class="service-img">
+            <div class="img">
+              <img src="Screenshot 2024-08-12 225316.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="github">
+        <h2>
+          You Can Found All Other Projects in My
+          <a
+            target="_blank"
+            href="https://github.com/ShadowAdi?tab=repositories"
+            >Github</a
+          >
+        </h2>
+      </section>
+    </div>
+    <div id="skill" class="page3">
+      <h2>Skills & Services</h2>
+      <div class="skillContainer">
+        <div class="skill skill1">
+          <div class="skillInfo">
+            <h2>Full Stack Web Devlopment</h2>
+            <div class="skillpwrapper">
+              <li>
+                Building responsive, user-friendly websites based on your needs
+                needs. Creating websites with <span>Awwwards</span> looking
+                animation using <span>GSAP</span>, <span>Framer</span> ,
+                <span>Locomotivejs</span> and other Javascript Libraries. Able
+                to adapt to any library or frameworks.
+              </li>
+              <li>
+                Developing robust and scalable backend systems using
+                <span>Node.js</span>, <span>Golang</span> , or other frameworks
+                .Able to create api's with help of <span>Express.js</span> ,
+                <span>Golang</span> and <span>FastAPI</span> and other
+                Libraries. Also Add Authentication system using Latest
+                technologies like <span>NextAuth</span> and <span>Clerk</span>.
+                Craeted many projects Using Outside library such as
+                <span>Spotify</span>, <span>Coingecko</span> and
+                <span>Gemini</span> .
+              </li>
+              <li>
+                Creating visually appealing and interactive user interfaces with
+                <span>React/Nextjs</span> . Recently Created An Event Management
+                Website where you Can Post Your Future Events and also able
+                Stripe payment in it .Able to Deploy Project using
+                <span>Heroku</span> and <span>Vercel</span> online.
+              </li>
+              <li>
+                Setting up and maintaining databases using <span>SQL</span>,
+                <span>NoSQL</span> , and other database technologies. Use
+                <span>PostgreSQL</span> for Relational and <span>MongoDB</span>
+                For Non-Relational.Also Able to Integrate techlogies such as
+                <span>Neon</span> .Use <span>Prisma</span> for easy Database
+                handling.
+              </li>
+            </div>
+          </div>
+        </div>
+        <div class="skill skill2">
+          <div class="skillInfo">
+            <h2>UI/UX Design</h2>
+            <div class="skillpwrapper">
+              <li>
+                Creating wireframes and prototypes to visualize design concepts
+                and workflows. Wireframes are prototypes are essential part
+                during a website design. Basically Wireframes are nothing but
+                primary design of how a web or app esign going to look like. We
+                use them they are just made of rectangles and circles. No Color
+                theme no typography just Layout. I use
+                <span>Figma for designing My Websites</span>
+              </li>
+              <li>
+                Another Important part for UI/UX Designing is to make sure that
+                the website or app is going to look good in all devices.Because
+                there can be variety of users ranging from mobile to desktop. So
+                it is important to make sure that app or website should look
+                good in all devices
+              </li>
+              <li>
+                Developing animation and micro interaction based on taking
+                feedback from people. Because asking for people opinion is an
+                important step. Because at the I am not going to use my app or
+                website they are going to the other users. And it is an UX
+                Designer responsibility to get required data from people
+                response about animation and microinteraction that users will
+                like
+              </li>
+              <li>
+                Creating Designs that match with brand personality is an
+                important step. Based on what services a brand provide is it
+                startup or some well profitable company we have to make choices
+                for our app or website. The type of color we are using, its
+                typography, layout and all other things play an important role
+                in the Design Step.
+              </li>
+              <li>
+                The last step is to always take advice. It really plays an
+                important role at the end. Because a website is never going to
+                be perfet. So We have to always make changes to make it as best
+                as possible for the user.
+              </li>
+            </div>
+          </div>
+        </div>
+        <div class="skill skill3">
+          <div class="skillInfo">
+            <h2>Data Science/AI Engineer</h2>
+
+            <div class="skillpwrapper">
+              <li>
+                Not only in <span class="highlight">Javascript</span> and
+                <span class="highlight">Typescript</span> but I also use other
+                programming languages like
+                <span class="highlight">Python</span>,
+                <span class="highlight">Golang</span>,
+                <span class="highlight">C++</span>. I also use
+                <span class="highlight">Tailwind</span> and
+                <span class="highlight">SCSS</span> in my projects. I mainly use
+                Python for
+                <span class="highlight">Machine/Deep learning tasks</span>, and
+                Golang for creating backends. I created projects in all these
+                fields. You can find them on GitHub. All the source code is
+                uploaded there.
+              </li>
+              <li>
+                I have created various projects in Data Science/Machine
+                learning/Deep learning. Whether it is classification,
+                clustering, or regression tasks, I used
+                <span class="highlight">scikit-learn</span> for machine learning
+                tasks along with other libraries like
+                <span class="highlight">Pandas</span>,
+                <span class="highlight">Seaborn</span>, and
+                <span class="highlight">Numpy</span>.
+              </li>
+              <li>
+                Able to provide data visualization, data extraction, and
+                cleaning of data to get better analysis. EDA is also an
+                important part in the field of data. We all know there is a lot
+                of data, but not all data is clean. So we have to clean it so
+                our model can run accurately.
+              </li>
+              <li>
+                Created projects based on <span class="highlight">NLP</span> and
+                <span class="highlight">Computer Vision</span> tasks such as
+                <span class="highlight">Image Segmentation</span> and
+                <span class="highlight">LDA Topic Modeling</span>. Also created
+                web projects based on them and deployed them with the help of
+                <span class="highlight">Streamlit</span> and
+                <span class="highlight">Gradio</span>. I have a deep knowledge
+                of how these projects work and can help if you want to integrate
+                them into your project.
+              </li>
+              <li>
+                Used <span class="highlight">Generative AI</span> and
+                <span class="highlight">LLMs</span> in my projects. Created
+                projects with the help of
+                <span class="highlight">Gemini API</span> and
+                <span class="highlight">Hugging Face</span>.
+              </li>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="about" class="page4">
+      <div class="page4section">
+        <h3>About Me</h3>
+        <p>
+          Hi... I Am a Full Stack Devloper based on India. Worked many projects
+          with help of Nextjs/React for frontend and and Golang/Javascript in
+          Backend. Also have a knowledge of how to design user friendly and
+          interactive website. Not only in Web Devlopment but also interested in
+          Macine/Deep Learning Based Application. <br />
+          Currently learning Android Devlopment with React Native. <br />
+          If you want to talk about something or work together Message Me on <br/>
+          <a target="_blank" href="https://www.linkedin.com/in/aditya12153/"
+            >Linked in.</a
+          >.
+        </p>
+      </div>
+      <div class="blogSection">
+        <h3>Blogs</h3>
+        <div class="blogs">
+          <div class="blog blog-1">
+            <div class="img">
+              <img
+                style="height: 200px; width: 100%; object-fit: contain"
+                src="https://raw.githubusercontent.com/ShadowAdi/Aditya_Portfolio/main/images/1_qfwhSex9WphMoJeSGVw29A.webp"
+                alt="Hugging Face"
+              />
+            </div>
+            <div class="info">
+              <div class="blog_info">
+                <h4>Introduction with Hugging Face.</h4>
+                <p>
+                  In this article I talk about Hugging Face and How to use it.
+                </p>
+              </div>
+              <a
+                target="_blank"
+                href="https://medium.com/ai-advances/introduction-with-hugging-face-fab5e6a47055"
+                >&rarr;
+              </a>
+            </div>
+          </div>
+          <div class="blog blog-2">
+            <div class="img">
+              <img
+                style="object-fit: cover"
+                src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*mn6gXKJZZTafKdeYQgkRMw.png"
+                alt="Sports Classification"
+              />
+            </div>
+            <div class="info">
+              <div class="blog_info">
+                <h4>Sports Classification- Using Efficient Net B0</h4>
+                <p>
+                  This is the article about my Sports Classification project
+                  which you can found on Github.
+                </p>
+              </div>
+              <a
+                target="_blank"
+                href="https://medium.com/@shadowshukla76/sports-classification-using-efficientnetb0-cec7455d7cbb"
+              >
+                &rarr;</a
+              >
+            </div>
+          </div>
+          <div class="blog blog-3">
+            <div class="img">
+              <img
+                src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*p99x7lUuGAsx2OjnB_6t3w.png"
+                alt=""
+              />
+            </div>
+            <div class="info">
+              <div class="blog_info">
+                <h4>Does Typography Matter</h4>
+                <p>
+                  I Wrote this article about. How importance is a Typography in
+                  a website.
+                </p>
+              </div>
+              <a
+                target="_blank"
+                href="https://medium.com/design-bootcamp/does-typography-matter-0b792b1f37c5"
+                >&rarr;
+              </a>
+            </div>
+          </div>
+          <div class="blog blog-4">
+            <div class="img">
+              <img
+                src="https://miro.medium.com/v2/resize:fit:750/format:webp/1*marIP8rsMmdbgVJrW2l0iQ.jpeg"
+                alt=""
+              />
+            </div>
+            <div class="info">
+              <div class="blog_info">
+                <h4>Color Palette for your website</h4>
+                <p>
+                  I Wrote about importance and how to choose color Palette for
+                  your website.
+                </p>
+              </div>
+              <a
+                target="_blank"
+                href="https://medium.com/design-bootcamp/how-to-create-a-color-palette-for-your-project-2f6cab6fcaa8"
+                >&rarr;
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="contact" class="page5">
+      <h1>Want to <span>Talk</span></h1>
+      <div class="contact">
+        <div class="contact-section">
+          <h2>Contact Me</h2>
+          <p>If you have any idea in your mind, feel free to reach out!</p>
+          <form
+            action="https://api.web3forms.com/submit"
+            method="POST"
+            id="contact-form"
+          >
+            <input
+              type="hidden"
+              name="access_key"
+              value="d1eda4b9-1443-4836-9932-eb822f16f92f"
+            />
+
+            <div class="groups">
+              <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" required />
+              </div>
+            </div>
+            <div id="form1" class="form-group">
+              <label for="message">Message:</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+        <div class="contactInfo">
+          <div class="conInfo">
+            <h2>Say <span style="font-family: 'Wano'">Hii</span></h2>
+            <p>
+              Let us know a bit about yourself, your ideas and your needs.I will
+              contact to you asap.
+            </p>
+          </div>
+          <div class="conInfo">
+            <h2>Location</h2>
+            <p>281/33 Mawaiya Lucknow, India</p>
+          </div>
+          <div class="conInfo">
+            <h2>Phone No.</h2>
+            <p>+91 7887086807</p>
+          </div>
+          <div class="conInfo">
+            <h2>Social Connections</h2>
+            <p>My Email: <span id="email">shadowshukla76@gmail.com</span></p>
+            <div class="imagesSocial">
+              <a
+                href="https://www.linkedin.com/in/aditya12153/"
+                target="_blank"
+              >
+                <img
+                  id="linked"
+                  src="linkedin-svgrepo-com.svg"
+                  alt="Linked In Icon"
+                />
+              </a>
+              <a href="https://medium.com/@shadowshukla76" target="_blank">
+                <img
+                  id="linked"
+                  src="medium-icon-svgrepo-com.svg"
+                  alt="Medium Icon"
+              /></a>
+
+              <a href="https://github.com/ShadowAdi" target="_blank">
+                <img
+                  style="width: 32px; height: 32px"
+                  id="github"
+                  src="github.svg"
+                  alt="github Icon"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>Created With ♥️ by me</p>
+      <div class="imagesSocial">
+        <a href="https://www.linkedin.com/in/aditya12153/" target="_blank">
+          <img
+            id="linked"
+            src="linkedin-svgrepo-com.svg"
+            alt="Linked In Icon"
+          />
+        </a>
+        <a href="https://medium.com/@shadowshukla76" target="_blank">
+          <img id="linked" src="medium-icon-svgrepo-com.svg" alt="Medium Icon"
+        /></a>
+        <a href="https://github.com/ShadowAdi" target="_blank">
+          <img id="github" src="github.svg" alt="github Icon"
+        /></a>
+      </div>
+    </footer>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.emailjs.com/dist/email.min.js"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/intersection-observer@0.12.2/intersection-observer.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
