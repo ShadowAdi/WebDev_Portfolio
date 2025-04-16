@@ -15,7 +15,7 @@ html,
 body {
   width: 100vw;
   overflow-x: hidden;
-  background: #a0a0a0; /* Initially #a0a0a0 */
+  background: #f3f3f3; /* Initially #a0a0a0 */
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: #1a1a1a; /* Initially #1a1a1a */
